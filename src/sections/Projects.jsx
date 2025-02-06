@@ -24,6 +24,8 @@ const Projects = () => {
         })
     }
 
+    const isMobile = window.innerWidth < 768;
+
   return (
     <section className='c-space my-20' id='projects'>
         <p className='head-text'>My Projects</p>
@@ -85,7 +87,7 @@ const Projects = () => {
                             </group>
                         </Suspense>
                     </Center>
-                    <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+                    <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} enableRotate={!isMobile} />
                 </Canvas>
 
             </div>
