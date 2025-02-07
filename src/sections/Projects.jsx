@@ -5,6 +5,7 @@ import { Center } from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader";
 import DemoComputer from "../components/DemoComputer";
 import { OrbitControls } from "@react-three/drei";
+import { useMediaQuery } from 'react-responsive';
 
 const projectCount = myProjects.length;
 
@@ -24,7 +25,7 @@ const Projects = () => {
         })
     }
 
-    const isMobile = window.innerWidth < 768;
+    const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
     <section className='c-space my-20' id='projects'>
@@ -77,6 +78,8 @@ const Projects = () => {
             </div>
 
             <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
+                {/* En móviles, en lugar de renderizar toda la escena 3D, mostramos una versión simplificada */}
+                { !isMobile ? (
                 <Canvas>
                     <ambientLight intensity={Math.PI} />
                     <directionalLight position={[10, 10, 5]} />
@@ -87,9 +90,16 @@ const Projects = () => {
                             </group>
                         </Suspense>
                     </Center>
-                    <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} enableRotate={!isMobile} />
+                    <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
                 </Canvas>
-
+                ) : (
+                // Puedes utilizar una imagen estática o una versión muy simplificada del modelo 3D en móviles
+                <img
+                src={currentProject.fallbackImage}
+                alt="Project preview"
+                className="w-full h-full object-cover rounded-lg"
+                />
+                )}
             </div>
 
         </div>

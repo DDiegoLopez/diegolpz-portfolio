@@ -64,6 +64,7 @@ export const navLinks = [
         'Focuses on pixel-perfect responsiveness, dynamic interactions, and polished aesthetics using Tailwind’s utility-first framework. Demonstrates attention to detail in replicating Zentry’s sleek, user-centric interface. All credits go to Zentry. Created for educational purposes only.',
       href: 'https://zentry-landing-clone.vercel.app/',
       texture: '/textures/project/project1.mp4',
+      fallbackImage: '/assets/project1-fallback.png',
       logo: '/assets/Vitejs-logo.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -101,6 +102,7 @@ export const navLinks = [
         'A portfolio-worthy project showcasing advanced web development skills, YC_Directory emphasizes clean design, robust authentication, and dynamic content management. It stands out as a versatile tool for startup promotion.',
       href: 'https://yc-directory-delta-gules.vercel.app/',
       texture: '/textures/project/project2.mp4',
+      fallbackImage: '/assets/project2-fallback.png',
       logo: '/assets/yc-d.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -138,6 +140,7 @@ export const navLinks = [
         'This project demonstrates proficiency in modern web development, featuring responsive design and seamless integration with TMDB API for real-time movie information retrieval.',
       href: 'https://movie-app-mu-beige.vercel.app/',
       texture: '/textures/project/project3.mp4',
+      fallbackImage: '/assets/project3-fallback.png',
       logo: '/assets/Vitejs-logo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -176,6 +179,7 @@ export const navLinks = [
       subdesc: '',
       href: '',
       texture: '/textures/project/project4.mp4',
+      fallbackImage: '/assets/project4-fallback.png',
       logo: '/assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -212,6 +216,7 @@ export const navLinks = [
       subdesc: '',
       href: '',
       texture: '/textures/project/project5.mp4',
+      fallbackImage: '/assets/project5-fallback.png',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
