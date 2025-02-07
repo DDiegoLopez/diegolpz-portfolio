@@ -6,6 +6,7 @@ import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Projects />
       <Contact />
       <Footer />
+      <Analytics />
     </main>
   )
 }
