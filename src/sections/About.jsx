@@ -62,7 +62,7 @@ const About = () => {
                             I work remotely across most timezones
                         </p>
                         <p className='grid-subtext'>
-                            I'm based in Mexico, with remote work available.
+                            I’m based in Mexico and available for remote work.
                         </p>
                         <a href="#contact">
                             <Button name="Contact me" isBeam containerClass='w-full mt-10'  />
