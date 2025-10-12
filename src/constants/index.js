@@ -1,27 +1,27 @@
 export const navLinks = [
-    {
-      id: 1,
-      name: 'Home',
-      href: '#home',
-    },
-    {
-      id: 2,
-      name: 'About',
-      href: '#about',
-    },
-    {
-      id: 3,
-      name: 'Projects',
-      href: '#projects',
-    },
-    {
-      id: 4,
-      name: 'Contact',
-      href: '#contact',
-    },
-  ];
-  
-  /*export const clientReviews = [
+  {
+    id: 1,
+    name: "Home",
+    href: "#home",
+  },
+  {
+    id: 2,
+    name: "About",
+    href: "#about",
+  },
+  {
+    id: 3,
+    name: "Projects",
+    href: "#projects",
+  },
+  {
+    id: 4,
+    name: "Contact",
+    href: "#contact",
+  },
+];
+
+/*export const clientReviews = [
     {
       id: 1,
       name: 'Emily Johnson',
@@ -55,125 +55,125 @@ export const navLinks = [
         'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
     },
   ]; */
-  
-  export const myProjects = [
-    {
-      title: 'Zentry Landing-Page Clone',
-      desc: 'A meticulously crafted clone of Zentry’s landing page, built with React + Vite, JavaScript, and Tailwind CSS. Prioritizes fluid animations, mobile-first responsiveness, and visual fidelity to mirror the original’s modern design ethos.',
-      subdesc:
-        'Focuses on pixel-perfect responsiveness, dynamic interactions, and polished aesthetics using Tailwind’s utility-first framework. Demonstrates attention to detail in replicating Zentry’s sleek, user-centric interface. All credits go to Zentry. Created for educational purposes only.',
-      href: 'https://zentry-landing-clone.vercel.app/',
-      texture: '/textures/project/project1.mp4',
-      fallbackImage: '/assets/project1-fallback.png',
-      logo: '/assets/Vitejs-logo.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'JavaScript',
-          path: '/assets/js-logo.png',
-        },
-        {
-          id: 4,
-          name: 'Vite',
-          path: '/assets/Vitejs-logo.png',
-        },
-      ],
+
+export const myProjects = [
+  {
+    title: "Zentry Landing-Page Clone",
+    desc: "A meticulously crafted clone of Zentry’s landing page, built with React + Vite, JavaScript, and Tailwind CSS. Prioritizes fluid animations, mobile-first responsiveness, and visual fidelity to mirror the original’s modern design ethos.",
+    subdesc:
+      "Focuses on pixel-perfect responsiveness, dynamic interactions, and polished aesthetics using Tailwind’s utility-first framework. Demonstrates attention to detail in replicating Zentry’s sleek, user-centric interface. All credits go to Zentry. Created for educational purposes only.",
+    href: "https://zentry-landing-clone.vercel.app/",
+    texture: "/textures/project/project1.mp4",
+    fallbackImage: "/assets/project1-fallback.png",
+    logo: "/assets/Vitejs-logo.png",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
     },
-    {
-      title: 'YC_Directory - Startup Directory',
-      desc: 'YC_Directory is a cutting-edge web platform built to help startups publish and promote innovative ideas. Developed using NextJS, Tailwind, NextAuth, and Sanity, this app delivers a seamless, fully responsive experience and a sleek, modern interface for maximum user impact.',
-      subdesc:
-        'A portfolio-worthy project showcasing advanced web development skills, YC_Directory emphasizes clean design, robust authentication, and dynamic content management. It stands out as a versatile tool for startup promotion.',
-      href: 'https://yc-directory-delta-gules.vercel.app/',
-      texture: '/textures/project/project2.mp4',
-      fallbackImage: '/assets/project2-fallback.png',
-      logo: '/assets/yc-d.png',
-      logoStyle: {
-        backgroundColor: '#13202F',
-        border: '0.2px solid #17293E',
-        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
       },
-      spotlight: '/assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'NextJS',
-          path: '/assets/nextjs-logo.png',
-        },
-      ],
-    },
-    {
-      title: 'Movies App',
-      desc: 'Movie App is a responsive web application that allows users to search for movies of interest using The Movie Database (TMDB) API. Developed with Vite, React, and Tailwind CSS, it displays movie posters, titles, ratings, and release dates.',
-      subdesc:
-        'This project demonstrates proficiency in modern web development, featuring responsive design and seamless integration with TMDB API for real-time movie information retrieval.',
-      href: 'https://movie-app-mu-beige.vercel.app/',
-      texture: '/textures/project/project3.mp4',
-      fallbackImage: '/assets/project3-fallback.png',
-      logo: '/assets/Vitejs-logo.png',
-      logoStyle: {
-        backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
       },
-      spotlight: '/assets/spotlight3.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'JavaScript',
-          path: '/assets/js-logo.png',
-        },
-        {
-          id: 4,
-          name: 'Vite',
-          path: '/assets/Vitejs-logo.png',
-        },
-      ],
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/js-logo.png",
+      },
+      {
+        id: 4,
+        name: "Vite",
+        path: "/assets/Vitejs-logo.png",
+      },
+    ],
+  },
+  {
+    title: "YC_Directory - Startup Directory",
+    desc: "YC_Directory is a cutting-edge web platform built to help startups publish and promote innovative ideas. Developed using NextJS, Tailwind, NextAuth, and Sanity, this app delivers a seamless, fully responsive experience and a sleek, modern interface for maximum user impact.",
+    subdesc:
+      "A portfolio-worthy project showcasing advanced web development skills, YC_Directory emphasizes clean design, robust authentication, and dynamic content management. It stands out as a versatile tool for startup promotion.",
+    href: "https://yc-directory-delta-gules.vercel.app/",
+    texture: "/textures/project/project2.mp4",
+    fallbackImage: "/assets/project2-fallback.png",
+    logo: "/assets/yc-d.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
     },
-    /*{
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "NextJS",
+        path: "/assets/nextjs-logo.png",
+      },
+    ],
+  },
+  {
+    title: "Mariachilabs",
+    desc: "Company website for Mariachilabs, a creative collective of developers, designers, and entrepreneurs who blend art and technology to bring unique digital experiences to life.",
+    subdesc:
+      "Website for Mariachilabs, created with HTML, CSS, JavaScript, Bootstrap, featuring a modern good looking design with a responsive layout and animations with GSAP.",
+    href: "https://mariachilabs.mx/",
+    texture: "/textures/project/mariachi.mp4",
+    fallbackImage: "/assets/mariachi-fallback.webp",
+    logo: "/assets/mariachi-logo.png",
+    logoStyle: {
+      backgroundColor: "#60f5a1",
+      background:
+        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(208, 213, 221, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "HTML",
+        path: "/assets/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "assets/css.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/js-logo.png",
+      },
+      {
+        id: 4,
+        name: "GSAP",
+        path: "/assets/gsap-white.svg",
+      },
+    ],
+  },
+  /*{
       title: '',
       desc: '',
       subdesc: '',
@@ -247,20 +247,44 @@ export const navLinks = [
         },
       ],
     }, */
-  ];
-  
-  export const calculateSizes = (isSmall, isMobile, isTablet) => {
-    return {
-      deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-      deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-      cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
-      reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
-    };
+];
+
+export const calculateSizes = (isSmall, isMobile, isTablet) => {
+  return {
+    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+    cubePosition: isSmall
+      ? [4, -5, 0]
+      : isMobile
+      ? [5, -5, 0]
+      : isTablet
+      ? [5, -5, 0]
+      : [9, -5.5, 0],
+    reactLogoPosition: isSmall
+      ? [3, 4, 0]
+      : isMobile
+      ? [5, 4, 0]
+      : isTablet
+      ? [5, 4, 0]
+      : [12, 3, 0],
+    ringPosition: isSmall
+      ? [-5, 7, 0]
+      : isMobile
+      ? [-10, 10, 0]
+      : isTablet
+      ? [-12, 10, 0]
+      : [-24, 10, 0],
+    targetPosition: isSmall
+      ? [-5, -10, -10]
+      : isMobile
+      ? [-9, -10, -10]
+      : isTablet
+      ? [-11, -7, -10]
+      : [-13, -13, -10],
   };
-  
- /* export const workExperiences = [
+};
+
+/* export const workExperiences = [
     {
       id: 1,
       name: 'Framer',
