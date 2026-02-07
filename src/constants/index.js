@@ -58,6 +58,44 @@ export const navLinks = [
 
 export const myProjects = [
   {
+    title: "CVPass",
+    desc: "CVPass is a platform that allows you to create and manage your CVs. Created with Nextjs, Tailwind and an interactive CV builder.",
+    subdesc:
+      "CVPass - Our CVs are designed to sail through Applicant Tracking Systems, increasing your chances of getting interviews.",
+    href: "https://cvpass.xyz",
+    texture: "/textures/project/cvpass.mp4",
+    fallbackImage: "/assets/fallback-cv.webp",
+    logo: "/assets/cvpasslogo-bg.png",
+    logoStyle: {
+      backgroundColor: "#0E1F38",
+      border: "0.2px solid #0E2D58",
+      boxShadow: "0px 0px 60px 0px #2F67B64D",
+    },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Next.js",
+        path: "/assets/nextjs-logo.png",
+      },
+    ],
+  },
+  {
     title: "Zentry Landing-Page Clone",
     desc: "A meticulously crafted clone of Zentry’s landing page, built with React + Vite, JavaScript, and Tailwind CSS. Prioritizes fluid animations, mobile-first responsiveness, and visual fidelity to mirror the original’s modern design ethos.",
     subdesc:
@@ -174,42 +212,6 @@ export const myProjects = [
     ],
   },
   /*{
-      title: '',
-      desc: '',
-      subdesc: '',
-      href: '',
-      texture: '/textures/project/project4.mp4',
-      fallbackImage: '/assets/project4-fallback.png',
-      logo: '/assets/project-logo4.png',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    }, 
     {
       title: '',
       desc: '',
@@ -256,24 +258,24 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     cubePosition: isSmall
       ? [4, -5, 0]
       : isMobile
-      ? [5, -5, 0]
-      : isTablet
-      ? [5, -5, 0]
-      : [9, -5.5, 0],
+        ? [5, -5, 0]
+        : isTablet
+          ? [5, -5, 0]
+          : [9, -5.5, 0],
     reactLogoPosition: isSmall
       ? [3, 4, 0]
       : isMobile
-      ? [5, 4, 0]
-      : isTablet
-      ? [5, 4, 0]
-      : [12, 3, 0],
+        ? [5, 4, 0]
+        : isTablet
+          ? [5, 4, 0]
+          : [12, 3, 0],
     ringPosition: isSmall
       ? [-3, 6, 0]
       : isMobile
-      ? [-4, 8, 0]
-      : isTablet
-      ? [-9, 6, 0]
-      : [-10, 1, 0],
+        ? [-4, 8, 0]
+        : isTablet
+          ? [-9, 6, 0]
+          : [-10, 1, 0],
   };
 };
 
